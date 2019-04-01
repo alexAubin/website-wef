@@ -259,6 +259,11 @@ hr {
   margin: 0;
 }
 
+hr.greendots {
+  border: none;
+  border-top: 5px greenyellow dotted;
+  padding-bottom: 1em;
+}
 
 
 
