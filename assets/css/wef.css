@@ -192,33 +192,6 @@ footer.footer {
 }
 
 
-
-@media (min-width: 768px) {
-  header.masthead h1 {
-    font-size: 3rem;
-    margin-top: -1rem; 
-    z-index: 9000; 
-    position:relative;
-  }
-  header.masthead h2 {
-    font-size: 3rem;
-  }
-  header.masthead {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-  } 
-  .schedule-time {
-    font-size: 1.3rem;
-    text-align: right;
-    justify-content: right;
-    margin-top: 0;
-  }
-  .schedule-descr {
-      text-align: left;
-  }
-
-}
-
 .caps {
  text-transform: lowercase;
  font-variant: small-caps;
@@ -250,7 +223,6 @@ footer.footer {
     height: 5em;
     float: left;
     margin-right:1rem;
-    margin-left:1rem;
     display: table-cell;
     vertical-align: middle;
 }
@@ -279,3 +251,48 @@ hr {
   border:5px solid rgba(0,0,0,.1);
   margin: 0;
 }
+
+
+
+
+@media (min-width: 768px) {
+  header.masthead h1 {
+    font-size: 3rem;
+    margin-top: -1rem; 
+    z-index: 9000; 
+    position:relative;
+  }
+  header.masthead h2 {
+    font-size: 3rem;
+  }
+  header.masthead {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  } 
+  .schedule-time {
+    font-size: 1.3rem;
+    text-align: right;
+    justify-content: right;
+    margin-top: 0;
+  }
+  .schedule-descr {
+      text-align: left;
+  }
+
+   .row > .event-title-container > .event-title-img 
+   {
+       float: right;
+       margin-right: 0;
+       margin-left: 1em;
+   }
+
+   .row > .event-title-container > .event-title {
+       width: 100%;
+   }
+   .row > .event-title-container {
+       text-align: right;
+       padding: 0;
+   }
+}
+
+
