@@ -65,6 +65,10 @@ h1, h2, h3 {
   }
 }
 
+.gold {
+   color: gold;
+}
+
 .cyan {
    color: darkturquoise;
 }
@@ -75,6 +79,30 @@ h1, h2, h3 {
 
 .green {
    color: yellowgreen;
+}
+
+.white { 
+    color: white;
+}
+
+.bg-pink {
+    background-color: hotpink;
+}
+
+.bg-cyan {
+    background-color: darkturquoise;
+}
+
+.bg-green { 
+    background-color: yellowgreen;
+}
+
+.bg-gold { 
+    background-color: gold;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .features-icons .features-icons-item {
@@ -191,4 +219,63 @@ footer.footer {
 
 }
 
+.caps {
+ text-transform: lowercase;
+ font-variant: small-caps;
+}
+.event-title-container {
+    height: 5em;
+    display: table;
+}
+.event-title {
+ text-transform: lowercase;
+ font-variant: small-caps;
+ display: table-cell;
+ vertical-align: middle;
+}
 
+.event-title-container p {
+ display: table-cell;
+ vertical-align: middle;
+}
+
+/*
+.vertalign-helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}*/
+
+.event-title-img {
+    height: 5em;
+    float: left;
+    margin-right:1rem;
+    margin-left:1rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.event-box {
+ padding: 0.5em;
+ padding-left: 1em;
+ padding-right: 1em;
+ font-weight: bold;
+ display: inline-block;
+ margin-top: 0.5em;
+ margin-bottom: 1em;
+}
+.event-coordinates { 
+ font-weight: bold;
+ margin-bottom: 0;
+}
+.event-author {
+ font-weight: bold;
+ font-style: italic;
+ font-size: 0.85em;
+}
+
+
+hr {
+  border:5px solid rgba(0,0,0,.1);
+  margin: 0;
+}
