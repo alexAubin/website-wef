@@ -23,7 +23,7 @@ header.masthead {
   background-color: #eb6e08;
   background-size: cover;
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 header.masthead .overlay {
@@ -227,6 +227,13 @@ footer.footer {
     vertical-align: middle;
 }
 
+.row > .event-title-container > .event-title-img 
+{
+    margin-right: 0;
+    margin-left:-1rem;
+    margin-top:3.5rem;
+}
+
 .event-box {
  padding: 0.5em;
  padding-left: 1em;
@@ -266,7 +273,7 @@ hr {
     font-size: 3rem;
   }
   header.masthead {
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-bottom: 3rem;
   } 
   .schedule-time {
